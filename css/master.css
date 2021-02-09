@@ -15,24 +15,35 @@ a:hover {
 }
 
 .parent {
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.visual {
+  height: 100px;
+  width: 100%;
+}
+
+.card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.child {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 300px;
-          flex: 0 1 300px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 300px;
-          flex: 1 1 300px;
-  border: 1px solid red;
-  background: lightpink;
-  font-size: 2rem;
-  text-align: center;
+h3 {
+  margin: 0;
 }
 
 body {

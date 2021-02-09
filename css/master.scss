@@ -13,24 +13,28 @@
   }
 
   .parent {
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .visual {
+    height: 100px;
+    width: 100%;
+  }
+
+  .card {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: space-between;
   }
-  
-  .child {
-    //  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
-    //  If we don't want the items to stretch:
-    flex: 0 1 300px;
-    //  If we do want the items to stretch:
-    flex: 1 1 300px;
-    
-    //   etc.
-    border: 1px solid red;
-    background: lightpink;
-    font-size: 2rem;
-    text-align: center;
+
+  h3 {
+    margin: 0
   }
-  
+
   body {
     background-color: beige; /* set the background color here */
     color: black; /* set the text color to black here */
