@@ -15,15 +15,23 @@ a:hover {
 }
 
 .white {
-  color: beige;
+  background-color: beige;
 }
 
 .pink {
-  color: hotpink;
+  background-color: hotpink;
 }
 
 .yellow {
-  color: yellow;
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
 }
 
 .parent {
