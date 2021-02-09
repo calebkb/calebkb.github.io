@@ -12,28 +12,28 @@
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
   .white { 
-    background-color: beige;
+    background-color: rgb(252, 246, 238);
     }
   
   .pink { 
-    background-color: hotpink;
+    background-color: rgb(252, 204, 228);
   }
   
   .yellow{
-    background-color: yellow;
+    background-color: rgb(192, 172, 59);
   }
 
   .blue{
-    background-color: blue;
+    background-color: rgb(169, 169, 238);
   }
 
   .green{
-    background-color: green;
+    background-color: rgb(83, 134, 83);
   }
 
   .parent {
     height: auto;
-    display: grid;
+    display: grid;s
     grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -81,7 +81,7 @@
 
   h3 {
     margin-bottom: 0;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
 
   h4 {
