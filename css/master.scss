@@ -11,24 +11,23 @@
     color: red; /* set the text color to red here */
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
+  .white { 
+    color: beige;
+    }
+  
+  .pink { 
+    color: hotpink;
+  }
+  
+  .yellow{
+    color: yellow;
+  }
 
   .parent {
     height: auto;
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
-  }
-  
-  .white { 
-  color: beige;
-  }
-
-  .pink { 
-  color: hotpink;
-  }
-
-  .yellow{
-  color: yellow;
   }
 
   .visual {

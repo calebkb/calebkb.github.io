@@ -14,15 +14,6 @@ a:hover {
   /* This means we do not want hyperlinks to be underlined */
 }
 
-.parent {
-  height: auto;
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 1rem;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-}
-
 .white {
   color: beige;
 }
@@ -33,6 +24,15 @@ a:hover {
 
 .yellow {
   color: yellow;
+}
+
+.parent {
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
 .visual {
