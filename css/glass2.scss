@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700&display=swap');
+@import url("https://use.typekit.net/gvi3wdk.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main { 
+    height: 100vh;
+    /* background: linear-gradient(to right top, #311f62, #090e50); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        #1A0666, #05308c
+      );
+    /* background-image: url(images/stars.png), linear-gradient(
+       #311f62, #1A0666
+      ); */
+    z-index: -1;
+}
+
+section {
+    min-height: 30vh;
+    width: 40vw;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(237, 230, 222, 0.7),
+        rgba(244, 225, 230, 0.7)
+    );
+    /* background: linear-gradient(
+        to right bottom, 
+        rgba(255, 193, 159, 0.363),
+        rgba(101, 48, 31, 0.3)
+    ); */
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    padding: 0rem 0rem;
+    align-items: center;
+    justify-content: center;
+    font-family: freightneocnd-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #6c50c7;
+    /* color: #f5f5dd; */
+    text-align: center;
+    font-size: 2em;
+    opacity: 90%;
+    z-index: 3;
+}
+
+.glass h1,h2{
+    font-weight: 200;
+}
+
+.glass h1{
+    font-size: 4rem;
+    flex-grow: 5;
+}
+
+.glass p { 
+    font-size: 1.5rem;
+    margin: 1rem 3rem;
+    margin-bottom: 2rem;
+}
+/* .glass h2,p{
+    flex-shrink: 4;
+} */
+
+.intro {
+    min-height: 100vh;
+    /* background: linear-gradient(to right top, #311f62, #090e50); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(images/stars.png), linear-gradient(
+        #1A0666, #090e50);
+    
+}
+
+.motives { 
+    min-height: 20vh;
+    width: 90vw;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 193, 159, 0.363),
+        rgba(101, 48, 31, 0.3)
+    );
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
+    padding: .5rem 2rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope ', sans-serif;
+    color: #f5f5dd;
+    text-align: left;
+    font-size: 2em;
+    opacity: 90%;
+    z-index: 3;
+}
+
+@keyframes move-twinkle-back {
+    from {mask-position:0 0;}
+    to {mask-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  min-height:100vh;
+  display:block;
+}
+
+.stars {
+  /* background: #090e50; */
+  background-image: url(images/stars.png), linear-gradient(
+       #311f62, #1A0666
+      );
+  z-index:0;
+  
+
+  /* linear-gradient(
+    to right bottom, 
+    rgba(255, 193, 159, 0.363),
+    rgba(101, 48, 31, 0.3)
+    ) */
+}
+
+/* .twinkling{
+  z-index:1;
+  mask-image: url(images/twinkling.png) repeat top center;
+  animation:move-twinkle-back 200s linear infinite;
+  opacity: 1;
+  filter: blur(1px);
+  
+
+} */
+
+.clouds{
+    background:transparent url(images/clouds.png) repeat center;
+    z-index:2;
+    opacity: .4;
+    /* animation:move-clouds-back 200s linear infinite; */
+}
+
