@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+body {
+  background-color: #090e50;
+  background-size: cover;
+  margin: 0;
+  font-family: 'PT Serif';
+  color: #f5f5dd;
+  font-size: 2em;
+  opacity: 90%;
+  margin-top: 10%;
+  background-attachment: fixed;
+  display: grid;
+  align-items: normal;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* section{
+  padding: 0em;
+  
+} */
+
+.container { 
+  width: 40rem;
+  height: 25rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  background-color: rgba(255, 193, 159, .25);
+  backdrop-filter: blur(10px);
+  
+}
+
+/* .container:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(5px);
+  background: inherit;
+  z-index: -1;
+} */
+
+.motives{
+  padding: 2em;
+  margin-top: 10%;
+}

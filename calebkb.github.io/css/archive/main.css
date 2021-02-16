@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+body {
+  background-color: #090e50;
+  margin: 0;
+  font-family: 'PT Serif';
+  color: #f5f5dd;
+  text-align: center;
+  font-size: 2em;
+  opacity: 90%;
+  margin-top: 10%;
+}
+
+section{
+  padding: 3em;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.motives{
+  padding: 0em;
+  margin-top: 0%;
+}
