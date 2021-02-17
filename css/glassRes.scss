@@ -33,6 +33,7 @@ div canvas {
 p {
     text-align: center;
     z-index: 0;
+    padding: 1rem 1rem;
 }
 
 .page-info {
@@ -66,6 +67,7 @@ body {
         background: radial-gradient(at bottom right, rgba(231,233,231,.2),rgba(231,233,231,.8));
         padding: .5rem .5rem;
         border-radius: 1rem;
+        font-size: smaller;
     }
 
     .top-bar {
@@ -79,5 +81,7 @@ body {
         width: 100vw;
     }
 
-    
+    p {
+        padding: .5rem .5rem
+    }
 }
