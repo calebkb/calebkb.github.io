@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: pragmatica,sans-serif;
+}
+
+.top-bar {
+  background: radial-gradient(at top left, rgba(170, 155, 122, 0.5), rgba(131, 113, 76, 0.75));
+  padding: 1rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.7rem 2rem;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-info {
+  margin: 0rem 1rem;
+  background: radial-gradient(at bottom right, rgba(231, 233, 231, 0.2), rgba(231, 233, 231, 0.8));
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+
+body {
+  background: radial-gradient(at bottom right, #59B0F7, #596BF7);
+  /* z-index: -1; */
+}
+
+.glass {
+  background: radial-gradient(at bottom right, rgba(231, 233, 231, 0.2), rgba(231, 233, 231, 0.8));
+  border-radius: 2rem;
+  z-index: 2;
+  -webkit-backdrop-filter: blur(2rem);
+          backdrop-filter: blur(2rem);
+  margin: auto;
+}
+
+@media (orientation: portrait) {
+  .btn {
+    padding: 0.3rem .5rem;
+  }
+  .page-info {
+    margin: 0rem .5rem;
+    background: radial-gradient(at bottom right, rgba(231, 233, 231, 0.2), rgba(231, 233, 231, 0.8));
+    padding: .5rem .5rem;
+    border-radius: 1rem;
+  }
+  .top-bar {
+    background: radial-gradient(at top left, rgba(170, 155, 122, 0.5), rgba(131, 113, 76, 0.75));
+    padding: .5rem;
+    text-align: center;
+  }
+  div canvas {
+    width: 100vw;
+  }
+}
+/*# sourceMappingURL=glassRes.css.map */
