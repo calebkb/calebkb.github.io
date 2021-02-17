@@ -37,10 +37,9 @@ main {
 }
 
 .glass h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   font-weight: 300;
-  margin-bottom: 2rem;
 }
 
 .glass h1, p {
@@ -53,13 +52,8 @@ main {
 
 .glass h1 {
   font-size: 4rem;
-  margin: 2rem 1.5rem;
   text-align: center;
   font-weight: 400;
-  font-stretch: expanded;
-  font-family: pragmatica-extended, sans-serif;
-  font-weight: 700;
-  font-style: normal;
 }
 
 .glass h2 {
@@ -70,18 +64,6 @@ main {
   margin-bottom: 0rem;
   font-weight: 300;
   text-align: center;
-}
-
-.glass p {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.glass div {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
 }
 
 .divider {
@@ -243,4 +225,4 @@ main {
     right: 2%;
   }
 }
-/*# sourceMappingURL=glass.css.map */
+/*# sourceMappingURL=glass copy.css.map */
