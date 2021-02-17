@@ -38,6 +38,7 @@ p {
   text-align: center;
   z-index: 0;
   padding: 1rem 1rem;
+  display: inline;
 }
 
 .page-info {
@@ -82,6 +83,7 @@ body {
   }
   p {
     padding: .5rem .5rem;
+    display: block;
   }
 }
 /*# sourceMappingURL=glassRes.css.map */
