@@ -31,6 +31,12 @@
 
 div canvas {
   width: 1080px;
+  z-index: 1;
+}
+
+p {
+  text-align: center;
+  z-index: 0;
 }
 
 .page-info {
