@@ -80,8 +80,9 @@ main {
 .glass div {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .divider {
@@ -188,7 +189,7 @@ main {
   }
   .glass h1, p, h2 {
     font-weight: 200;
-    font-size: 1.25rem;
+    font-size: .75rem;
     padding: 0rem 0rem;
     margin: .25rem .25rem;
     line-height: 1.25;
@@ -196,16 +197,26 @@ main {
   }
   .glass h1 {
     font-size: 3rem;
-    margin: 2rem;
+    margin: .5rem;
+  }
+  .glass h3 {
+    font-size: 1.25rem;
   }
   .glass h2 {
-    font-size: 1.5rem;
-    margin: 1rem;
+    font-size: 1.25rem;
+    margin: 0rem;
   }
   .glass p {
     font-style: italic;
     grid-column: span 3;
     margin: 1rem;
+    font-size: .95rem;
+  }
+  .second h2 {
+    padding-top: .5rem;
+  }
+  .second h3 {
+    font-size: 1rem;
   }
   .divider {
     max-height: 10vh;

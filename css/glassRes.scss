@@ -25,6 +25,10 @@
     justify-content: center;
 }
 
+div canvas {
+    width: 100vw;
+}
+
 .page-info {
     margin: 0rem 1rem;
     background: radial-gradient(at bottom right, rgba(231,233,231,.2),rgba(231,233,231,.8));
@@ -65,7 +69,5 @@ body {
         text-align: center;
     }
 
-    div canvas {
-        width: 100vw;
-    }
+    
 }
