@@ -24,6 +24,8 @@ body {
   -ms-grid-column: 1;
   grid-area: sidebar;
   border-radius: 2rem;
+  text-align: center;
+  font-family: pragmatica, sans-serif;
 }
 
 .congrid {
@@ -51,18 +53,36 @@ body {
   background: radial-gradient(at bottom right, rgba(231, 233, 231, 0.2), rgba(231, 233, 231, 0.8));
   -webkit-backdrop-filter: blur(2rem);
           backdrop-filter: blur(2rem);
-  height: 40vh;
+  min-height: 40vh;
+  overflow: auto;
 }
 
 .content img {
   max-height: 20vh;
-  display: block;
-  margin: .5rem auto;
+  float: right;
+  margin: .5rem 1rem;
 }
 
 .content * {
   text-align: center;
-  margin: 0;
+  margin: 1rem 0.5rem;
+  font-family: pragmatica, sans-serif;
+}
+
+.content p {
+  margin: 0 1rem;
+  padding: 1 1rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+a p {
+  display: none;
+}
+
+a:hover p {
+  display: block;
 }
 
 @media only screen and (max-width: 7.5in) {
