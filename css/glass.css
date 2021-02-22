@@ -84,13 +84,28 @@ main {
           align-items: center;
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
 .divider {
   height: 25vh;
   opacity: 0;
 }
 
+.glass img {
+  max-height: 20vh;
+  float: right;
+  margin: .5rem 1rem;
+}
+
 .second p {
-  margin: 0 .5rem;
+  margin: 1rem .5rem;
   font-size: 1.5rem;
 }
 
